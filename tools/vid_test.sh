@@ -29,5 +29,5 @@ find "$DATA_DIR" -type f | while read file; do
         echo "$file is not an mp4 file"
     fi
 done
-echo "no way"
+echo "good good good"
 
