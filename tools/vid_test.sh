@@ -5,7 +5,7 @@ POSE2DWEIGHTS=${POSE2DWEIGHTS:-"rtmpose-tiny_simcc-aic-coco_pt-aic-coco_420e-256
 DETMODEL=${DETMODEL:-"projects/rtmpose/rtmdet/person/rtmdet_nano_320-8xb32_coco-person.py"}
 DETWEIGHTS=${DETWEIGHTS:-"rtmdet_nano_8xb32-100e_coco-obj365-person-05d8511e.pth"}
 
-DATA_DIR="tests/yd_data_test/vid"
+DATA_DIR="tests/yd_data_test/"
 
 # 遍历目录树
 find "$DATA_DIR" -type f | while read file; do
